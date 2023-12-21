@@ -25,6 +25,7 @@ body {
 	flex-direction: column;
 	background: #6943ff;
 	color: white;
+    border-radius: 5px 5px 0 0;
 }
 
 .unit-input {
@@ -39,8 +40,6 @@ body {
 	font-style: normal;
 	font-weight: 800;
 	line-height: 24.393px;
-	-webkit-appearance: none;
-	-moz-appearance: textfield;
 }
 
 .convert-btn {
@@ -63,14 +62,14 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	background: #1f2937;
+    border-radius: 0 0 5px 5px;
 }
 
 .results-section {
-	border-radius: 4.681px 0px 0px 0px;
+	border-radius: 5px;
 	background: #273549;
 	width: 90%;
 	height: 30%;
-	flex-shrink: 0;
 }
 
 h3 {
